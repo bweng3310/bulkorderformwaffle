@@ -1,0 +1,74 @@
+{
+    "data": [
+
+          {
+            "id": "11",
+            "name": "Lychee Tea",
+            "shortDescription": "Perfectly brewed tea, topped with the refreshingly tropical lychee flavour.",
+            "image": "https://images.ctfassets.net/xqnmwkrakjp5/XwHifpzdjd4gV8C3huO3d/2d155844ca34f0ebfaf34973fc5e63c6/512px-lychee-ice-tea.png",
+            "availableIn" : "Available In" ,
+            "ice" : "" ,
+            "small": 3.00,
+            "regular":4.00,    
+            "categoryName": "TEAS"
+    
+    
+          },
+
+          {
+            "id": "12",
+            "name": "Peach Tea",
+            "shortDescription": "Perfectly brewed tea, topped with the refreshingly tropical peach flavour.",
+            "image": "https://flash-coffee.com/sg/wp-content/uploads/sites/7/2022/05/ICED-PEACH-TEA-300x300.png",
+            "availableIn" : "Available In" ,
+            "ice" : "" ,
+            "small": 3.00,
+            "regular":4.00,    
+            "categoryName": "TEAS",
+            "sugartitle" : "Sugar Level"
+
+    
+          },
+          {
+            "id": "13",
+            "name": "Matcha Milk",
+            "shortDescription": "Our signature tea, brewed for 9 hours, and topped with silky fresh milk.",
+            "image": "https://flash-coffee.com/sg/wp-content/uploads/sites/7/2022/05/MATCHA-MILK-1-300x300.png",
+            "availableIn" : "Available In" ,
+            "ice" : "Iced / Hot " ,
+            "small": 5.30,
+            "regular":6.30,
+            "milk" : "Fresh Milk / Skinny Milk / Oat Milk",
+            "categoryName": "TEAS" 
+    
+          },
+          {
+            "id": "14",
+            "name": "Milk Tea",
+            "shortDescription": "Freshly brewed tea topped with silky fresh milk.",
+            "image": "https://images.ctfassets.net/xqnmwkrakjp5/0QhR3knhLZg5mQgBwZw0Z/a32615307f5b4da5c4ceb5dba62a084f/milk-tea.png",
+            "availableIn" : "Available In" ,
+            "ice" : "Iced / Hot" ,
+            "small": 3.00,
+            "regular":4.00,    
+            "categoryName": "TEAS",
+            "milk" : "Fresh Milk / Skinny Milk / Oat Milk"
+
+          },
+          {
+            "id": "15",
+            "name": "Hot English Breakfast Tea",
+            "shortDescription": "Freshly brewed tea topped with silky fresh milk.",
+            "image": "https://images.ctfassets.net/xqnmwkrakjp5/0QhR3knhLZg5mQgBwZw0Z/a32615307f5b4da5c4ceb5dba62a084f/milk-tea.png",
+            "availableIn" : "Available In" ,
+            "ice" : "Iced / Hot" ,
+            "small": 3.00,
+            "regular":3.00,    
+            "categoryName": "TEAS"
+          }
+
+
+
+
+]
+}

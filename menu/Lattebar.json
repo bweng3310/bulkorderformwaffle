@@ -1,0 +1,75 @@
+{
+    "data": [
+      
+      {
+        "id": "6",
+        "name": "Macadamia Latte",
+        "shortDescription": "Classic latte, topped with nutty Macadamia flavour.",
+        "image": "https://images.ctfassets.net/xqnmwkrakjp5/32FECfk7ps9EPZyJlTVyj8/0e2250782c04a60a2a59797214a857fa/512px-macadamia-latte.png",
+        "categoryName": "LATTE BAR",
+        "availableIn" : "Available In" ,
+        "milk" : "Fresh Milk / Skinny Milk / Oat Milk",
+        "ice" : "Iced / Hot " ,
+        "small": 5.30,
+        "regular":6.30
+
+      },
+
+      {
+        "id": "7",
+        "name": "Melaka Latte",
+        "shortDescription": "Palm Sugar Goodness!",
+        "image": "https://images.ctfassets.net/xqnmwkrakjp5/2neADLY0bZWWtNWDFwD8Q1/d389fdf399f968ae9978adaa17bf63be/Palm_Sugar_Latte.jpg",
+        "categoryName": "SG SERIES",
+        "availableIn" : "Available In" ,
+        "ice" : "Iced / Hot " ,
+        "small": 5.30,
+        "regular":6.30,
+        "milk" : "Fresh Milk / Skinny Milk / Oat Milk"
+
+
+      },
+      {
+        "id": "8",
+        "name": "Chocolate Hazelnut Latte",
+        "shortDescription": "Our signature latte, topped with chocolate and hazelnut goodness.",
+        "image": "https://images.ctfassets.net/xqnmwkrakjp5/5otBqFz6IjjUKGtOz6YeGV/a88ba19d41f576b1b336e1ad36aea074/512px-nutella-latte.png",
+        "categoryName": "LATTE BAR",
+        "availableIn" : "Available In" ,
+        "ice" : "Iced / Hot" ,
+        "small": 6.10,
+        "regular":7.10,
+        "milk" : "Fresh Milk / Skinny Milk / Oat Milk"
+
+      },
+      {
+        "id": "9",
+        "name": "Yuan Yang Latte",
+        "shortDescription": "Our version of Yuen Yeung is a harmonious mixture of coffee and fragrant tea.",
+        "image": "https://flash-coffee.com/sg/wp-content/uploads/sites/7/2022/05/APP_Yuan-Arabica-300x300.png",
+        "categoryName": "LATTE BAR",
+        "availableIn" : "Available In" ,
+        "ice" : "Iced / Hot" ,
+        "small": 5.30,
+        "regular":6.30,
+        "milk" : "Fresh Milk / Skinny Milk / Oat Milk"
+
+      },
+      {
+        "id": "10",
+        "name": "Vanilla Latte ",
+        "shortDescription": "Delicious blend of our classic latte with vanilla flavour.",
+        "image": "https://flash-coffee.com/sg/wp-content/uploads/sites/7/2022/05/VANILLA-LATTE-2-300x300.png",
+        "categoryName": "LATTE BAR",
+        "availableIn" : "Available In" ,
+        "ice" : "Iced / Hot" ,
+        "small": 5.30,
+        "regular":6.30,
+        "milk" : "Fresh Milk / Skinny Milk / Oat Milk"
+
+      }
+
+
+
+]
+}

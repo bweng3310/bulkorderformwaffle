@@ -1,7 +1,14 @@
 .container {
   padding: 0 2rem;
 }
-
+.button{
+  background-color: #E43673;
+  border: #E43673;
+}
+.button:hover{
+  background-color: #E43673;
+  border: #E43673;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -11,6 +18,15 @@
   justify-content: center;
   align-items: center;
 }
+.inputbox{
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+.options{
+  color: gray;
+}
+
+
 
 .footer {
   display: flex;
@@ -44,7 +60,39 @@
   line-height: 1.15;
   font-size: 4rem;
 }
+.hot{
+font-size: 1rem;
+}
+.weight{
+  font-weight: 600;
+}
+.menutitle{
+  font-weight: 600;
+  color: #E43673;
+}
+.send1{
+  background-color: gray;
+  line-height: 2.5rem;
+  border: gray;
+  color: white;
 
+}
+.send {
+  background-color: #E43673;
+  line-height: 2.5rem;
+  border: #E43673;
+  color: white;
+}
+.send:hover{
+  background-color: #E43673;
+  border: #E43673;
+  border: #E43673;
+  color: white;
+
+}
+.logo{
+  border-radius: 50%;
+}
 .title,
 .description {
   text-align: center;
@@ -107,23 +155,27 @@
   height: 1em;
   margin-left: 0.5rem;
 }
-
+.menu{
+  position: relative;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  background-color: black;
+}
+.x{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  line-height: 70px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  background-color: ghostwhite;
+  z-index: 10;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
   }
 }

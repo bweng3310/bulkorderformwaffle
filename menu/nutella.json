@@ -1,0 +1,57 @@
+{
+    "data": [
+
+      {
+        "id": "6",
+        "googleformqant": "entry.359740725",
+        "googleformmilk": "entry.1192669189",
+        "googleformamount": "entry.1433473000",
+        "googleformicedqant": "entry.609674431",
+        "googleformicedmilk": "entry.1802449947",
+        "googleformicedamount": "entry.2004898025",
+        "name": "Chocolate Hazelnut Latte",
+        "shortDescription": "Our signature latte, topped with chocolate and hazelnut goodness.",
+        "image": "https://images.ctfassets.net/xqnmwkrakjp5/5otBqFz6IjjUKGtOz6YeGV/a88ba19d41f576b1b336e1ad36aea074/512px-nutella-latte.png",
+        "categoryName": "LATTE BAR",
+        "availableIn" : "Available In" ,
+        "ice" : "Iced / Hot" ,
+        "size" : "S $6.1 / M $7.1 / L $7.8 ",
+        "sugartitle" : "Sugar Level",
+        "sugarlevel" : "Normal / Less Sweet / Extra Sweet",
+        "extraExpressoTitle" : "Extra Espresso",
+        "extraExpresso" : "1 Shot + $1 / 2 Shot + $2",
+        "altmilktitle" : "Alternative Milk +$1",
+        "altmilk" : "Soy Milk / Almond Milk / Coconut Milk",
+        "milktitle" : "Basic Milk",
+        "milk" : "Fresh Milk / Skinny Milk / Oat Milk",
+        "function": "changesummary10",
+        "placeholder": "E.g, 10 x Nutella Latte, iced, milk"
+
+      },
+      {
+        "id": "7",
+        "googleformicedqant": "entry.1769960027",
+        "googleformicedmilk": "entry.24050361",
+        "googleformicedamount": "entry.1731036277",
+        "name": "Chocolate Hazelnut Shake",
+        "shortDescription": "Savory blend of tasty Nutella and fresh milk.",
+        "image": "https://images.ctfassets.net/xqnmwkrakjp5/3B6SZbxPxg9E3AaelVqINp/56c635ca08d42a8d1c3a9354f4e80e11/512px-nutella-shake.png",
+        "categoryName": "SHAKES",
+        "availableIn" : "Available In" ,
+        "ice" : "" ,
+        "size" : "S $5.8 / M $6.8 / L $7.8 ",
+        "extraExpressoTitle" : "Extra Espresso",
+        "extraExpresso" : "1 Shot + $1 / 2 Shot + $2",
+        "proteintitle" : "Extra Scoop of Protein",
+        "protein" : "+ $1",
+        "altmilktitle" : "Alternative Milk +$1",
+        "altmilk" : "Soy Milk / Almond Milk / Coconut Milk",
+        "milktitle" : "Basic Milk",
+        "milk" : "Fresh Milk / Skinny Milk / Oat Milk",
+        "placeholder": "E.g, 10 x Nutella Shake, iced, milk"
+    
+      }
+
+
+]
+}

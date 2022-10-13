@@ -1,0 +1,23 @@
+@import "./accordion2.scss";
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+
+
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/_accordion.scss";
+@import "../node_modules/bootstrap/scss/_forms.scss";
+
+
+

@@ -1,0 +1,70 @@
+{
+    "data": [
+      {
+        "id": "1",
+        "name": "Americano",
+        "shortDescription": "Espresso and hot water.",
+        "image": "https://images.ctfassets.net/xqnmwkrakjp5/61dQAvkEliuDTBSB02cGGR/985ed1533b9a349db7fbcba7ac15eeec/americano.png",
+        "availableIn" : "Available In" ,
+        "ice" : "Hot / Iced" ,
+        "small": 3.00,
+        "regular":4.00,
+        "extra": "shot",
+        "categoryName": "ESSENTIALS"
+  
+      },
+      {
+        "id": "2",
+        "name": "Latte",
+        "shortDescription": "Coffee & steamed milk.",
+        "image": "https://images.ctfassets.net/xqnmwkrakjp5/2kBEBFyACGQD1ytE6QOACg/a603d04771b9ac59c3c46205b22a5b78/latte.png",
+        "availableIn" : "Available In" ,
+        "ice" : "Iced / Hot" ,
+        "small": 4.30,
+        "regular":5.30,
+        "milk" : "Fresh Milk / Skinny Milk / Oat Milk",
+        "categoryName": "ESSENTIALS"
+
+      },
+      {
+        "id": "3",
+        "name": "Flat White",
+        "shortDescription": "Espresso topped with silky frothed milk.",
+        "image": "https://images.ctfassets.net/xqnmwkrakjp5/11MrADWQAU677YxEVEAjNx/9ebc85c0d47b60d0596079ce974aa189/new-flat-white.png",
+        "availableIn" : "Available In" ,
+        "ice" : "Iced / Hot" ,
+        "milk" : "Fresh Milk / Skinny Milk / Oat Milk",
+        "small": 4.30,
+        "regular":5.30,
+        "categoryName": "ESSENTIALS"
+      },
+      {
+        "id": "4",
+        "name": "Mocha ",
+        "shortDescription": "Espresso mixed with silky frothed milk and cocoa powder for that rich, comforting and chocolaty taste.",
+        "image": "https://flash-coffee.com/sg/wp-content/uploads/sites/7/2022/05/MOCHA-4-2-600x600.jpg",
+        "availableIn" : "Available In" ,
+        "ice" : "Iced / Hot" ,
+        "milk" : "Fresh Milk / Skinny Milk / Oat Milk",
+        "small": 5.30,
+        "regular":6.30,
+        "categoryName": "ESSENTIALS"
+
+      },
+      {
+        "id": "5",
+        "name": "Chocolate Hazelnut",
+        "shortDescription": "Espresso mixed with silky frothed milk and cocoa powder for that rich, comforting and chocolaty taste.",
+        "image": "https://flash-coffee.com/sg/wp-content/uploads/sites/7/2022/09/CHOCOLATE-300x300.jpg",
+        "availableIn" : "Available In" ,
+        "extra": "",
+        "ice" : "Iced / Hot" ,
+        "milk" : "Fresh Milk / Skinny Milk / Oat Milk",
+        "small": 4.80,
+        "regular":5.80,
+        "categoryName": "ESSENTIALS"
+
+      }
+
+    ]
+  }
