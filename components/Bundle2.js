@@ -4,6 +4,8 @@ import styles from '../styles/Item.module.css'
 import Head from 'next/head'
 import { useState } from 'react'
 import { useEffect, forwardRef } from 'react'
+import bundlepic from '../public/coffee pic/bundle.JPG'
+
 
 
 function Bundle2(props) {
@@ -576,7 +578,7 @@ function Bundle2(props) {
             >
               <div className={styles.picture}>
                 <Image
-                  src={props.pic}
+                  src={bundlepic}
                   alt={props.product}
                   width={50}
                   height={50}
