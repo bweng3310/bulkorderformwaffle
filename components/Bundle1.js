@@ -91,7 +91,8 @@ function Bundle1(props) {
       option3:`${eoption3} x ${essential*7}`,
       option4:`${eoption4} x ${essential*5}`,
       option5:`${eoption5} x ${essential*5}`,
-      option6:`${eoption6} x ${essential*5}`
+      option6:`${eoption6} x ${essential*5}`,
+      quant:essential*15
      })
      props.changebundle1set1(
       {
@@ -105,7 +106,9 @@ function Bundle1(props) {
         option3:`* ${eoption3} x ${essential*7}`,
         option4:`* ${eoption4} x ${essential*5}`,
         option5:`* ${eoption5} x ${essential*5}`,
-        option6:`* ${eoption6} x ${essential*5}`
+        option6:`* ${eoption6} x ${essential*5}`,
+        quant:essential*15
+
          }
      )
 
@@ -122,7 +125,9 @@ function Bundle1(props) {
     option3:'',
     option4:'',
     option5:'',
-    option6:''
+    option6:'',
+    quant:essential*15
+
 
     })
     props.changebundle1set1(
@@ -137,7 +142,9 @@ function Bundle1(props) {
         option3:'',
         option4:'',
         option5:'',
-        option6:''
+        option6:'',
+        quant:essential*15
+
     
         }
     )
@@ -159,7 +166,9 @@ function Bundle1(props) {
       option3:`* ${loption3} x ${lattebar*7}`,
       option4:`* ${loption4} x ${lattebar*5}`,
       option5:`* ${loption5} x ${lattebar*5}`,
-      option6:`* ${loption6} x ${lattebar*5}`
+      option6:`* ${loption6} x ${lattebar*5}`,
+      quant:lattebar*15
+
      })
      props.changebundle1set2({
       summary:`Lattebar Set x ${lattebar} = ${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3  +lplus4 +lplus5) * lattebar).toFixed(2)}`,
@@ -172,7 +181,9 @@ function Bundle1(props) {
       option3:`* ${loption3} x ${lattebar*7}`,
       option4:`* ${loption4} x ${lattebar*5}`,
       option5:`* ${loption5} x ${lattebar*5}`,
-      option6:`* ${loption6} x ${lattebar*5}`
+      option6:`* ${loption6} x ${lattebar*5}`,
+      quant:lattebar*15
+
      })
 
   }
@@ -188,7 +199,9 @@ function Bundle1(props) {
     option3:'',
     option4:'',
     option5:'',
-    option6:''
+    option6:'',
+    quant:lattebar*15
+
 
     })
     props.changebundle1set2({
@@ -202,7 +215,9 @@ function Bundle1(props) {
       option3:'',
       option4:'',
       option5:'',
-      option6:''
+      option6:'',
+      quant:lattebar*15
+
   
       })
   } 
@@ -222,7 +237,8 @@ function Bundle1(props) {
       option3:`* ${toption3} x ${tea*7}`,
       option4:`* ${toption4} x ${tea*5}`,
       option5:`* ${toption5} x ${tea*5}`,
-      option6:`* ${toption6} x ${tea*5}`
+      option6:`* ${toption6} x ${tea*5}`,
+      quant:tea*15
      })
      props.changebundle1set3({
       summary:`Tea Set x ${tea} = ${parseFloat((teaprice + tplus1 + tplus2 + tplus3  +tplus4 +tplus5) * tea).toFixed(2)}`,
@@ -235,7 +251,9 @@ function Bundle1(props) {
       option3:`* ${toption3} x ${tea*7}`,
       option4:`* ${toption4} x ${tea*5}`,
       option5:`* ${toption5} x ${tea*5}`,
-      option6:`* ${toption6} x ${tea*5}`
+      option6:`* ${toption6} x ${tea*5}`,
+      quant:tea*15
+
      })
   }
   else if(tea<=0){
@@ -250,7 +268,8 @@ function Bundle1(props) {
     option3:'',
     option4:'',
     option5:'',
-    option6:''
+    option6:'',
+    quant:tea*15
 
     })
     props.changebundle1set3({
@@ -264,7 +283,8 @@ function Bundle1(props) {
       option3:'',
       option4:'',
       option5:'',
-      option6:''
+      option6:'',
+      quant:tea*15
   
       })
   } 
@@ -290,6 +310,8 @@ function Bundle1(props) {
       option8:`* ${moption8} x ${mixed*5}`,
       option9:`* ${moption9} x ${mixed*5}`,
       option10:`* ${moption10} x ${mixed*5}`,
+      quant:mixed*15
+
      })
      props.changebundle1set4({
       summary:`Mixed Set x ${mixed} = ${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,
@@ -307,6 +329,8 @@ function Bundle1(props) {
       option8:`* ${moption8} x ${mixed*5}`,
       option9:`* ${moption9} x ${mixed*5}`,
       option10:`* ${moption10} x ${mixed*5}`,
+      quant:mixed*15
+
      })
   }
   else if(mixed<=0){
@@ -326,6 +350,8 @@ function Bundle1(props) {
     option8:'',
     option9:'',
     option10:'',
+    quant:mixed*15
+
 
     })
     props.changebundle1set4({
@@ -344,6 +370,8 @@ function Bundle1(props) {
       option8:'',
       option9:'',
       option10:'',
+      quant:mixed*15
+
   
       })
   } 

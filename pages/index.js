@@ -82,18 +82,18 @@ export default function Home() {
 
 
 
-const [bundle1set1, setbundle1set1] = useState({summary:'',bundle1set1:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:''});
-const [bundle1set2, setbundle1set2] = useState({summary:'',bundle1set2:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:''});
-const [bundle1set3, setbundle1set3] = useState({summary:'',bundle1set3:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:''});
-const [bundle1set4, setbundle1set4] = useState({summary:'',bundle1set4:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:'', option7:'',option8:'',option10:'',option9:''});
-const [bundle2set1, setbundle2set1] = useState({summary:'',bundle2set1:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:''});
-const [bundle2set2, setbundle2set2] = useState({summary:'',bundle2set2:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:''});
-const [bundle2set3, setbundle2set3] = useState({summary:'',bundle2set3:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:''});
-const [bundle2set4, setbundle2set4] = useState({summary:'',bundle2set4:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:'', option7:'',option8:'',option10:'',option9:''});
-const [bundle3set1, setbundle3set1] = useState({summary:'',bundle3set2:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:''});
-const [bundle3set2, setbundle3set2] = useState({summary:'',bundle3set2:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:''});
-const [bundle3set3, setbundle3set3] = useState({summary:'',bundle3set2:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:''});
-const [bundle3set4, setbundle3set4] = useState({summary:'',bundle3set4:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:'', option7:'',option8:'',option10:'',option9:''});
+const [bundle1set1, setbundle1set1] = useState({summary:'',bundle1set1:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:'',quant:0});
+const [bundle1set2, setbundle1set2] = useState({summary:'',bundle1set2:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:'',quant:0});
+const [bundle1set3, setbundle1set3] = useState({summary:'',bundle1set3:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:'',quant:0});
+const [bundle1set4, setbundle1set4] = useState({summary:'',bundle1set4:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:'', option7:'',option8:'',option10:'',option9:'',quant:0});
+const [bundle2set1, setbundle2set1] = useState({summary:'',bundle2set1:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:'',quant:0});
+const [bundle2set2, setbundle2set2] = useState({summary:'',bundle2set2:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:'',quant:0});
+const [bundle2set3, setbundle2set3] = useState({summary:'',bundle2set3:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:'',quant:0});
+const [bundle2set4, setbundle2set4] = useState({summary:'',bundle2set4:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:'', option7:'',option8:'',option10:'',option9:'',quant:0});
+const [bundle3set1, setbundle3set1] = useState({summary:'',bundle3set2:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:'',quant:0});
+const [bundle3set2, setbundle3set2] = useState({summary:'',bundle3set2:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:'',quant:0});
+const [bundle3set3, setbundle3set3] = useState({summary:'',bundle3set2:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:'',quant:0});
+const [bundle3set4, setbundle3set4] = useState({summary:'',bundle3set4:'',price:'',total:'',total2:0,option1:'',option2:'',option3:'',option4:'',option5:'',option6:'', option7:'',option8:'',option10:'',option9:'',quant:0});
 let bundletotal=0
 
   bundletotal= parseFloat(bundle1set1.total2) + parseFloat(bundle1set2.total2)+
@@ -265,6 +265,10 @@ useEffect(() => {
 
 let data=[]
 let itemtotal=[]
+let itemquant=[]
+let itemquanttotal=bundle1set1.quant+bundle1set2.quant+bundle1set3.quant
++bundle1set4.quant+bundle2set1.quant+bundle2set2.quant+bundle2set3.quant
++bundle2set4.quant+bundle3set1.quant+bundle3set2.quant+bundle3set3.quant+bundle3set4.quant
 let itemtotal2=0
 for(let i=1; i<myRefs.current.length; i++){
 
@@ -327,12 +331,11 @@ if(myRefs.current[i].innerText.split(',').slice(11,12)!= "" && myRefs.current[i]
   itemtotal.push(myRefs.current[i].innerText.split(',').slice(35,36))
 
 }
-
-
-
-
+ itemquanttotal=itemquanttotal+parseFloat(myRefs.current[i].innerText.split(',').slice(48,49))
 
 }
+
+
 for(let i=0; i<itemtotal.length; i++){
 itemtotal2= itemtotal2+ parseFloat(itemtotal[i])
 
@@ -340,6 +343,8 @@ itemtotal2= itemtotal2+ parseFloat(itemtotal[i])
 
 console.log(`data:${data}`)
 console.log(itemtotal2)
+console.log(itemquanttotal)
+
 console.log(bundletotal)
 
 
@@ -670,21 +675,16 @@ console.log(newArray4)
           {/* <div>1. For bulk orders, all drink sizes must be the same </div> */}
           <div>1. Delivery & pick-up hours are between 9:00am to 5:00pm </div>
           <div>
-            2. Full payment must be made via bank transfer or PayNow upon order
-            confirmation by an authorised representative of Flash Coffee via
-            email or text
+            2. Once payment has been made, all bulk orders are final and cannot be changed.
           </div>
           <div>
-            3. Once payment has been made, all bulk orders are final and cannot be changed.
+            3. Full payment must be made via bank transfer or Paynow upon order confirmation by an authorised representative of Flash Coffee via email or text.
           </div>
           <div>
-            4. Full payment must be made via bank transfer or Paynow upon order confirmation by an authorised representative of Flash Coffee via email or text.
+            4. Cancellation of confirmed orders within 14 days of delivery date is strictly not allowed.
           </div>
           <div>
-            5. Cancellation of confirmed orders within 14 days of delivery date is strictly not allowed.
-          </div>
-          <div>
-            6. We aim to complete every bulk order request when possible, kindly note we reserve the right to decline any order due to availability of resources.
+            5. We aim to complete every bulk order request when possible, kindly note we reserve the right to decline any order due to availability of resources.
           </div>
           
         </div>
@@ -997,6 +997,12 @@ console.log(newArray4)
                 className="form-control"
               ></textarea>
             </div>
+            <input
+              type="text"
+              style={{ display: "none" }}
+              name="entry.303982452"
+              value={sizeprice}
+            />
 
             <input
               type="text"
@@ -1260,17 +1266,18 @@ console.log(newArray4)
             </div>
 
             <div className="mx-auto row d-flex justify-content-end">
-              {/* {quant>30 ?
+              {itemquanttotal>30 ?
+                     <button
+                    type="submit"
+                    className={`${styles.send} btn col-12  mt-5`}
+                    >
+                    SEND ORDER REQUEST
+                   </button>
 :
                           <div className={`${styles.send1} btn col-12  mt-5`}>
                              SEND ORDER REQUEST
-                          </div>} */}
-                                                      <button
-                            type="submit"
-                            className={`${styles.send} btn col-12  mt-5`}
-                          >
-                            SEND ORDER REQUEST
-                          </button>
+                          </div>}
+
 
             </div>
           </div>

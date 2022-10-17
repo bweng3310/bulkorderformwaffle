@@ -92,7 +92,9 @@ function Bundle3(props,ref) {
       option3:`* ${eoption3} x ${essential*25}`,
       option4:`* ${eoption4} x ${essential*15}`,
       option5:`* ${eoption5} x ${essential*15}`,
-      option6:`* ${eoption6} x ${essential*20}`
+      option6:`* ${eoption6} x ${essential*20}`,
+      quant:essential*50
+
      })
      props.changebundle3set1(
       {
@@ -106,7 +108,9 @@ function Bundle3(props,ref) {
         option3:`* ${eoption3} x ${essential*25}`,
         option4:`* ${eoption4} x ${essential*15}`,
         option5:`* ${eoption5} x ${essential*15}`,
-        option6:`* ${eoption6} x ${essential*20}`
+        option6:`* ${eoption6} x ${essential*20}`,
+        quant:essential*50
+
          }
      )
 
@@ -123,7 +127,9 @@ function Bundle3(props,ref) {
     option3:'',
     option4:'',
     option5:'',
-    option6:''
+    option6:'',
+    quant:essential*50
+
 
     })
     props.changebundle3set1(
@@ -138,7 +144,8 @@ function Bundle3(props,ref) {
         option3:'',
         option4:'',
         option5:'',
-        option6:''
+        option6:'',
+        quant:essential*50
     
         }
     )
@@ -160,7 +167,9 @@ function Bundle3(props,ref) {
       option3:`* ${loption3} x ${lattebar*25}`,
       option4:`* ${loption4} x ${lattebar*15}`,
       option5:`* ${loption5} x ${lattebar*15}`,
-      option6:`* ${loption6} x ${lattebar*20}`
+      option6:`* ${loption6} x ${lattebar*20}`,
+      quant:lattebar*50
+
      })
      props.changebundle3set2({
       summary:`Lattebar Set x ${lattebar} = ${parseFloat((lattebarprice + lplus1 + lplus2 + lplus3 + lplus4 + lplus5) * lattebar).toFixed(2)}`,
@@ -173,7 +182,8 @@ function Bundle3(props,ref) {
       option3:`* ${loption3} x ${lattebar*25}`,
       option4:`* ${loption4} x ${lattebar*15}`,
       option5:`* ${loption5} x ${lattebar*15}`,
-      option6:`* ${loption6} x ${lattebar*20}`
+      option6:`* ${loption6} x ${lattebar*20}`,
+      quant:lattebar*50
      })
 
   }
@@ -189,7 +199,8 @@ function Bundle3(props,ref) {
     option3:'',
     option4:'',
     option5:'',
-    option6:''
+    option6:'',
+    quant:lattebar*50
 
     })
     props.changebundle3set2({
@@ -203,7 +214,8 @@ function Bundle3(props,ref) {
       option3:'',
       option4:'',
       option5:'',
-      option6:''
+      option6:'',
+      quant:lattebar*50
   
       })
   } 
@@ -223,7 +235,9 @@ function Bundle3(props,ref) {
       option3:`* ${toption3} x ${tea*25}`,
       option4:`* ${toption4} x ${tea*15}`,
       option5:`* ${toption5} x ${tea*15}`,
-      option6:`* ${toption6} x ${tea*20}`
+      option6:`* ${toption6} x ${tea*20}`,
+      quant:tea*50
+
      })
      props.changebundle3set3({
       summary:`Tea Set x ${tea} = ${parseFloat((teaprice + tplus1 + tplus2 + tplus3 + tplus4 + tplus5) * tea).toFixed(2)}`,
@@ -236,7 +250,9 @@ function Bundle3(props,ref) {
       option3:`* ${toption3} x ${tea*25}`,
       option4:`* ${toption4} x ${tea*15}`,
       option5:`* ${toption5} x ${tea*15}`,
-      option6:`* ${toption6} x ${tea*20}`
+      option6:`* ${toption6} x ${tea*20}`,
+      quant:tea*50
+
      })
   }
   else if(tea<=0){
@@ -251,7 +267,9 @@ function Bundle3(props,ref) {
     option3:'',
     option4:'',
     option5:'',
-    option6:''
+    option6:'',
+    quant:tea*50
+
 
     })
     props.changebundle3set3({
@@ -265,7 +283,9 @@ function Bundle3(props,ref) {
       option3:'',
       option4:'',
       option5:'',
-      option6:''
+      option6:'',
+      quant:tea*50
+
   
       })
   } 
@@ -291,6 +311,8 @@ function Bundle3(props,ref) {
       option8:`* ${moption8} x ${mixed*15}`,
       option9:`* ${moption9} x ${mixed*15}`,
       option10:`* ${moption10} x ${mixed*20}`,
+      quant:mixed*50
+
      })
      props.changebundle3set4({
       summary:`Mixed Set x ${mixed} = ${parseFloat((mixedprice +mplus1 +mplus2 +mplus3 +mplus4 +mplus5 +mplus6 +mplus7) *mixed).toFixed(2)}`,
@@ -308,6 +330,8 @@ function Bundle3(props,ref) {
       option8:`* ${moption8} x ${mixed*15}`,
       option9:`* ${moption9} x ${mixed*15}`,
       option10:`* ${moption10} x ${mixed*20}`,
+      quant:mixed*50
+
      })
   }
   else if(mixed<=0){
@@ -327,6 +351,8 @@ function Bundle3(props,ref) {
     option8:'',
     option9:'',
     option10:'',
+    quant:mixed*50
+
 
     })
     props.changebundle3set4({
@@ -345,6 +371,7 @@ function Bundle3(props,ref) {
       option8:'',
       option9:'',
       option10:'',
+      quant:mixed*50
   
       })
   } 
