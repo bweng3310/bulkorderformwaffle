@@ -381,7 +381,7 @@ console.log(newArray4)
             request in detail.
           </div>
           <a className="mb-3" onClick={() => setmenu2(true)}>
-           Click here to see DM
+           Click here to see full menu
           </a>
 
           <div><strong>Note:</strong> Minimum order quantity is 31 items. </div>
@@ -668,20 +668,25 @@ console.log(newArray4)
         <div className="row col-11 mx-auto mt-3 mb-3">
           <h5 className={`mb-2 mt-5 ${styles.weight}`}>T&CS:</h5>
           {/* <div>1. For bulk orders, all drink sizes must be the same </div> */}
-          <div>1. Delivery & pick-up hours are from 9:00am to 5:00pm </div>
+          <div>1. Delivery & pick-up hours are between 9:00am to 5:00pm </div>
           <div>
             2. Full payment must be made via bank transfer or PayNow upon order
             confirmation by an authorised representative of Flash Coffee via
             email or text
           </div>
           <div>
-            3. No cancellation of confirmed orders within 14 days of delivery
-            date
+            3. Once payment has been made, all bulk orders are final and cannot be changed.
           </div>
           <div>
-            4. We reserve the right to decline any order due to availability of
-            resources
+            4. Full payment must be made via bank transfer or Paynow upon order confirmation by an authorised representative of Flash Coffee via email or text.
           </div>
+          <div>
+            5. Cancellation of confirmed orders within 14 days of delivery date is strictly not allowed.
+          </div>
+          <div>
+            6. We aim to complete every bulk order request when possible, kindly note we reserve the right to decline any order due to availability of resources.
+          </div>
+          
         </div>
 
         <div className="form-group col-11 mx-auto  d-flex row justify-content-between">
