@@ -387,17 +387,17 @@ console.log(newArray4)
             We are here to serve your coffee needs! Tell us about your order
             request in detail.
           </div>
-          <a className="mb-3" onClick={() => setmenu2(true)}>
-          Click here to see full Bulk Order Menu
-          </a>
+          <div className="mb-3 d-flex flex-row" >
+          Click here to see our full &nbsp;<h5 onClick={() => setmenu2(true)} className={`${styles.menulink}`}><strong>MENU</strong></h5>
+          </div>
 
-          <div><strong>Note:</strong> Minimum order quantity is 31 items. </div>
+          <div><strong>Note:</strong> Minimum order quantity is 31 items </div>
 
           <div className="d-flex flex-column col-11 align-items-start mt-3 row">
             <h4 className={`mt-5 ${styles.weight}`}>
             Choose Drink Size 
             </h4>
-            <div className="mb-2">( All drink sizes must be the same. )</div>
+            <div className="mb-2">( All drinks must be of the same size )</div>
           <div className="mt-1 col-12 mx-auto">
             <div className="d-flex flex-row text-secondary ">
               <div style={{margin:"0px 20px 0px 0px"}}>

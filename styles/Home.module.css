@@ -178,6 +178,9 @@ font-size: 1rem;
   background-color: ghostwhite;
   z-index: 10;
 }
+.menulink{
+  color: #E43673;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
