@@ -1294,8 +1294,7 @@ console.log(newArray4)
                 payment.{" "}
               </div>
               <div className="mb-5">
-                For urgent matters please contact us via WhatsApp (+852 9778
-                6691){" "}
+                For urgent matters please contact us via WhatsApp (+65 8312 0685){" "}
               </div>
             </div>
 
