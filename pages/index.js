@@ -388,7 +388,7 @@ console.log(newArray4)
             request in detail.
           </div>
           <a className="mb-3" onClick={() => setmenu2(true)}>
-           Click here to see full menu
+          Click here to see full Bulk Order Menu
           </a>
 
           <div><strong>Note:</strong> Minimum order quantity is 31 items. </div>
