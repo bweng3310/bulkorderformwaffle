@@ -648,7 +648,7 @@ console.log(text4)
                         1. Essentials Set&nbsp;&nbsp; $ 
                         {parseFloat(essentialprice + plus1 + plus2 + plus3).toFixed(2) }
                       </strong>
-                      <div className="d-flex flex-row stepper col-4 mx-3">
+                      <div className="d-flex flex-row stepper col-5">
                         <span
                           className={styles.inputnumberdecrement}
                           onClick={() => {
@@ -810,7 +810,7 @@ console.log(text4)
                         2. Latte Bar Set&nbsp;&nbsp; $ 
                         {parseFloat(lattebarprice + lplus1 + lplus2 + lplus3).toFixed(2) }
                       </strong>
-                      <div className="d-flex flex-row stepper col-4 mx-3">
+                      <div className="d-flex flex-row stepper col-5 ">
                         <span
                           className={styles.inputnumberdecrement}
                           onClick={() => {
@@ -988,7 +988,7 @@ console.log(text4)
                       <strong>
                         3. Tea Set&nbsp;&nbsp; ${parseFloat(teaprice + tplus1 + tplus2 + tplus3).toFixed(2) }
                       </strong>
-                      <div className="d-flex flex-row stepper col-4 mx-3">
+                      <div className="d-flex flex-row stepper col-5 ">
                         <span
                           className={styles.inputnumberdecrement}
                           onClick={() => {
@@ -1158,7 +1158,7 @@ console.log(text4)
                         4. Mixed Set&nbsp;&nbsp; $
                         {parseFloat(mixedprice +mplus1 +mplus2 +mplus3 + mplus4 +mplus5 + mplus6 + mplus7).toFixed(2) }
                       </strong>
-                      <div className="d-flex flex-row stepper col-4 mx-3">
+                      <div className="d-flex flex-row stepper col-5">
                         <span
                           className={styles.inputnumberdecrement}
                           onClick={() => {

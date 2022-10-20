@@ -146,7 +146,7 @@ if(hottotal<0){
                             <small className='text-secondary mx-2' >${price}</small>
                         </div> */}
 
-                        <div className='d-flex flex-row stepper col-3 mt-3'>
+                        <div className='d-flex flex-row stepper col-5 mt-3'>
                             <span className={styles.inputnumberdecrement } onClick={()=>{setnumber(number-1);sethottotal((price*10)*(number-1)/10)}}>–</span>
                             <input type="number" id={props.id} name={props.googleformqant} value={number} className='form-control' onChange={(e)=>{setnumber(''); setnumber(parseFloat(e.target.value));sethottotal((price*10)*(e.target.value)/10)}}/>
                             <span className={styles.inputnumberincrement} onClick={()=>{setnumber(number+1);sethottotal((price*10)*(number+1)/10)}}>+</span>
