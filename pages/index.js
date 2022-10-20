@@ -10,6 +10,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import { addDays } from "date-fns";
 import lattebar from "../menu/Lattebar.json";
 import Essentials from "../menu/essential.json";
+import Coldbrew from "../menu/coldbrew.json";
 import food from "../menu/food.json";
 import teas from "../menu/Iced taas.json";
 import Snack from "../components/Snack";
@@ -48,6 +49,7 @@ export default function Home() {
 
 
   const essential = Essentials.data;
+  const coldbrew = Coldbrew.data;
   const food1 = food.data;
   const lattebar1 = lattebar.data;
   const teas1 = teas.data;
@@ -358,7 +360,7 @@ console.log(newArray4)
         <Image
                 src={menu}
                 alt="bulk order menu"
-                className="p-5"
+                className="p-5 mx-auto"
         />
 
       </div>:<></>}
@@ -593,6 +595,38 @@ console.log(newArray4)
 })}
 
         </div>
+
+
+        <div className="d-flex flex-column ">
+          <div className="mt-3 col-11 mx-auto row">
+            <h4 className={styles.menutitle}>COLDBREW</h4>
+          </div>
+          {coldbrew.map((men) => (
+            <Snack
+            ref={(el) => (myRefs.current[men.id] = el)}
+              key={men.id}
+              num={men.id}
+              product={men.name}
+              discription={men.shortDescription}
+              id={`item${men.id}`}
+              accordion={`collapse${men.id}`}
+              accordion2={`#collapse${men.id}`}
+              accordion3={`heading${men.id}`}
+              pic={men.image}
+              icelevel={men.ice}
+              extrashot={men.extra}
+              price2={men.size}
+              googleformqant={men.googleformqant}
+              googleformamount={men.googleformamount}
+              summary={summary1}
+              googlesheet={summary3}
+              setgooglesheet={changesummary3}
+              changesummary={changesummary1}
+            />
+          ))}
+
+        </div>
+
 
         <div className="d-flex flex-column ">
           <div className="mt-3 col-11 mx-auto row">
