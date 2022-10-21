@@ -1104,7 +1104,7 @@ function Milk(props, ref) {
                       </div>
                     </div>
                             <small className="text-secondary mt-1 mb-2">
-                              ${parseFloat(hottotal).toFixed(2)}
+                              ${parseFloat(hotskinnymilktotal+hotoatmilktotal+hotalmondmilktotal+hotcoconutmilktotal+hotsoymilktotal+hotfreshmilktotal).toFixed(2)}
                             </small>
                     </div>
 
@@ -1552,7 +1552,7 @@ function Milk(props, ref) {
                       </div>
                     </div>
                             <small className="text-secondary mt-1 mb-2">
-                              ${parseFloat(coldtotal).toFixed(2)}
+                              ${parseFloat(coldfreshmilktotal+coldskinnymilktotal+coldoatmilktotal+coldalmondmilktotal+coldcoconutmilktotal+coldsoymilktotal).toFixed(2)}
                             </small>
                     </div>
                   ) : (
