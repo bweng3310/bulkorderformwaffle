@@ -443,7 +443,7 @@ console.log(newArray4)
 
         <div className="d-flex flex-column ">
           {/* <div className='mt-5 mb-2 col-11 mx-auto row'><h4 className={styles.weight}>Menu</h4></div> */}
-          <div className="mt-4 col-11 mx-auto row">
+          <div className="mt-2 col-11 mx-auto row">
             <h4 className={styles.menutitle}>ESSENTIALS</h4>
           </div>
           {essential.map((men) => {return men.milk ?
