@@ -370,7 +370,7 @@ console.log(newArray4)
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/x-icon" href="https://flash-coffee.com/id/wp-content/uploads/sites/13/2021/03/favicon-16x16-1.png"></link>
       </Head>
-      <div className="shadow-sm pt-3 pb-5  col-12 col-md-6 col-lg-5 bg-white d-flex flex-column justify-content-center mx-auto">
+      <div className="shadow-sm pt-3 pb-3  col-12 col-md-6 col-lg-5 bg-white d-flex flex-column justify-content-center mx-auto">
       <div className="row col-12 mx-auto border-bottom">
           <div className="col-11 mx-auto d-flex flex-row justify-content-left align-items-center  mb-2 pb-1 ">
             <Image
