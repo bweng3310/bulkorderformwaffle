@@ -1300,7 +1300,7 @@ console.log(newArray4)
             </div>
 
             <div className="mx-auto row d-flex justify-content-end">
-              {itemquanttotal>30 ?
+              {itemquanttotal>29 ?
                      <button
                     type="submit"
                     className={`${styles.send} btn col-12  mt-5`}
