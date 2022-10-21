@@ -625,7 +625,7 @@ function Bundle2(props) {
             <div className="accordion-body d-flex flex-column ">
               <div className="d-flex flex-row col-12 justify-content-left mt-2 mb-1  mx-auto row ">
                 <small className={styles.detail}>
-                  Choose one coffee and one snack to make a bundle for 15
+                  Choose one coffee and one snack to make a bundle for 30
                   people.
                 </small>
               </div>

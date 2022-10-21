@@ -600,7 +600,7 @@ console.log(newArray4)
 
         <div className="d-flex flex-column ">
           <div className="mt-3 col-11 mx-auto row">
-            <h4 className={styles.menutitle}>COLDBREW</h4>
+            <h4 className={styles.menutitle}>BOTTLED COLD BREWS</h4>
           </div>
           {coldbrew.map((men) => (
             <Snack

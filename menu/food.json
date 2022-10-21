@@ -44,11 +44,11 @@
         "id": "20",
         "googleformqant": "entry.1742165751",
         "googleformamount": "entry.2137794266",
-        "name": "Blueberry Muffin",
+        "name": "Impossible Rendang Puff",
         "categoryName": "SNACKS",
-        "shortDescription": "Butter Muffin with real blueberries.",
-        "size": 3.50,
-        "image": "https://flash-coffee.com/sg/wp-content/uploads/sites/7/2021/03/blueberry-muffin-2-600x600.jpg"
+        "shortDescription": "A flaky, mouth-watering pastry puff with Impossible™ rendang filling.",
+        "size": 5.80,
+        "image": "https://flash-coffee.com/sg/wp-content/uploads/sites/7/2022/10/Rendang-Roll-1000x1000-1-600x600.jpg"
       },
       {
         "id": "21",
@@ -74,11 +74,11 @@
         "id": "23",
         "googleformqant": "entry.288388975",
         "googleformamount": "entry.819481835",
-        "name": " Zesty Orange Muffin",
+        "name": " Impossible Sausage Roll",
         "categoryName": "SNACKS",
-        "shortDescription": "The perfect balance of light and tangy orange in fluffy muffin.",
-        "size": 3.50,
-        "image": "https://flash-coffee.com/sg/wp-content/uploads/sites/7/2022/06/Orange-Peel-600x600.jpg"
+        "shortDescription": "A flavourful Impossible™ sausage filling wrapped in golden puff pastry for the perfect snack!",
+        "size": 5.20,
+        "image": "https://flash-coffee.com/sg/wp-content/uploads/sites/7/2022/10/Sausage-Roll-1000x1000-1-600x600.jpg"
       },
 
 
@@ -102,6 +102,16 @@
         "shortDescription": "Delicately sliced beef pastrami in flaky, buttery croissant, and topped with oozing melted cheese.",
         "size": 5.80,
         "image": "https://flash-coffee.com/sg/wp-content/uploads/sites/7/2022/03/Delivery_SKU_APP-600x600.jpg"
+      },
+      {
+        "id": "30",
+        "googleformqant": "entry.1058748529",
+        "googleformamount": "entry.35237477",
+        "name": "Impossible Pesto Sandwich",
+        "shortDescription": "A delicious combination of Impossible™ filling, cheese and pesto sauce in a sandwich.",
+        "size": 6.50,
+        "categoryName": "SNACKS",
+        "image": "https://flash-coffee.com/sg/wp-content/uploads/sites/7/2022/10/Pesto-Sandwich-1000x1000-1-600x600.jpg"
       }
 
 
