@@ -660,7 +660,7 @@ console.log(newArray4)
         </div>
         <div className="d-flex flex-column ">
 <div className="mt-3 col-11 mx-auto row">
-  <h4 className={styles.menutitle}>BUNDLE</h4>
+  <h4 className={styles.menutitle}>BUNDLES</h4>
 </div>
 
     <Bundle1
