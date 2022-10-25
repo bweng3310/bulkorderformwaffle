@@ -255,15 +255,16 @@ useEffect(()=>{
 
 const newArray4 = [];
 
-useEffect(() => {
-  let sub = 0
-  for(let i=1; i<myRefs.current.length; i++){
+// useEffect(() => {
+//   let sub = 0
+//   for(let i=1; i<myRefs.current.length; i++){
+//     if(myRefs.current[i].innerText.split(',').slice(5,6)!='')
     
-    sub = sub +Number(myRefs.current[i].innerText.split(',').slice(5,6))+Number(myRefs.current[i].innerText.split(',').slice(2,3))
+//     sub = sub +Number(myRefs.current[i].innerText.split(',').slice(5,6))+Number(myRefs.current[i].innerText.split(',').slice(2,3))
 
-  }
-  setsubtotal(sub)
-}, [sizeprice,summary1]);
+//   }
+//   setsubtotal(sub)
+// }, [sizeprice,summary1]);
 
 let data=[]
 let itemtotal=[]
@@ -664,15 +665,15 @@ console.log(newArray4)
 </div>
 
     <Bundle1
-    id={`item30`}
+    id={`item100`}
     size={sizeprice}
     changebundle1set1={changebundle1set1}
     changebundle1set2={changebundle1set2}
     changebundle1set3={changebundle1set3}
     changebundle1set4={changebundle1set4}
-    accordion={`collapse30`}
-    accordion2={`#collapse30`}
-    accordion3={`heading30`}
+    accordion={`collapse100`}
+    accordion2={`#collapse100`}
+    accordion3={`heading100`}
     pic='https://images.ctfassets.net/xqnmwkrakjp5/11MrADWQAU677YxEVEAjNx/9ebc85c0d47b60d0596079ce974aa189/new-flat-white.png'
       />
     <Bundle2
@@ -1300,7 +1301,7 @@ console.log(newArray4)
             </div>
 
             <div className="mx-auto row d-flex justify-content-end">
-              {itemquanttotal>29 ?
+              {itemquanttotal>30 ?
                      <button
                     type="submit"
                     className={`${styles.send} btn col-12  mt-5`}
