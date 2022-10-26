@@ -9,7 +9,7 @@ import bundlepic from '../public/coffee pic/bundle.JPG'
 
 function Bundle3(props,ref) {
   const [tea, settea] = useState(0);
-  const [teaprice, setteaprice] = useState(357);
+  const [teaprice, setteaprice] = useState(368);
   const [teatotal, setteatotal] = useState(0);
   const [tplus1, settplus1] = useState(0);
   const [tplus2, settplus2] = useState(0);
@@ -26,7 +26,7 @@ function Bundle3(props,ref) {
   const [toption6, settoption6] = useState("Pain au Chocolat");
 
   const [mixed, setmixed] = useState(0);
-  const [mixedprice, setmixedprice] = useState(404);
+  const [mixedprice, setmixedprice] = useState(415);
   const [mixedtotal, setmixedtotal] = useState(0);
   const [mplus1, setmplus1] = useState(0);
   const [mplus2, setmplus2] = useState(0);
@@ -47,7 +47,7 @@ function Bundle3(props,ref) {
   const [moption10, setmoption10] = useState("Pain au Chocolat");
 
   const [essential, setessential] = useState(0);
-  const [essentialprice, setessentialprice] = useState(390);
+  const [essentialprice, setessentialprice] = useState(400);
   const [plus1, setplus1] = useState(0);
   const [plus2, setplus2] = useState(0);
   const [plus3, setplus3] = useState(0);
@@ -60,7 +60,7 @@ function Bundle3(props,ref) {
   const [eoption6, seteoption6] = useState("Pain au Chocolat");
 
   const [lattebar, setlattebar] = useState(0);
-  const [lattebarprice, setlattebarprice] = useState(472);
+  const [lattebarprice, setlattebarprice] = useState(483);
   const [lattebartotal, setlattebartotal] = useState(0);
   const [lplus1, setlplus1] = useState(0);
   const [lplus2, setlplus2] = useState(0);
@@ -385,15 +385,15 @@ function Bundle3(props,ref) {
 
   useEffect(() => {
     if (props.size == "Regular") {
-      setessentialprice(390);
-      setteaprice(357);
-      setlattebarprice(472);
-      setmixedprice(404);
+      setessentialprice(400);
+      setteaprice(368);
+      setlattebarprice(483);
+      setmixedprice(415);
     } else if (props.size == "Small") {
-      setessentialprice(340);
-      setteaprice(307);
-      setlattebarprice(422);
-      setmixedprice(355);
+      setessentialprice(350);
+      setteaprice(318);
+      setlattebarprice(433);
+      setmixedprice(365);
     }
   }, [props.size]);
 
