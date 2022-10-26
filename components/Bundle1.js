@@ -8,8 +8,39 @@ import bundlepic from '../public/coffee pic/bundle.JPG'
 
 function Bundle1(props) {
 
+
+  const [essential, setessential] = useState(0);
+  const [essentialprice, setessentialprice] = useState(116);
+  const [plus1, setplus1] = useState(0);
+  const [plus2, setplus2] = useState(0);
+  const [plus3, setplus3] = useState(0);
+  const [essentialtotal, setessentialtotal] = useState(0);
+  const [eoption1, seteoption1] = useState("Hot");
+  const [eoption2, seteoption2] = useState("Americano");
+  const [eoption3, seteoption3] = useState("Latte");
+  const [eoption4, seteoption4] = useState("Flakey Butter Croissant");
+  const [eoption5, seteoption5] = useState("Waffles");
+  const [eoption6, seteoption6] = useState("Pain au Chocolat");
+
+  const [lattebar, setlattebar] = useState(0);
+  const [lattebarprice, setlattebarprice] = useState(141);
+  const [lattebartotal, setlattebartotal] = useState(0);
+  const [lplus1, setlplus1] = useState(0);
+  const [lplus2, setlplus2] = useState(0);
+  const [lplus3, setlplus3] = useState(0);
+  const [lplus4, setlplus4] = useState(0);
+  const [lplus5, setlplus5] = useState(0);
+
+  const [loption1, setloption1] = useState("Hot");
+  const [loption2, setloption2] = useState("Macadamia Latte");
+  const [loption3, setloption3] = useState("Melaka Latte");
+  const [loption4, setloption4] = useState("Flakey Butter Croissant");
+  const [loption5, setloption5] = useState("Waffles");
+  const [loption6, setloption6] = useState("Pain au Chocolat");
+
+
   const [tea, settea] = useState(0);
-  const [teaprice, setteaprice] = useState(110);
+  const [teaprice, setteaprice] = useState(107);
   const [teatotal, setteatotal] = useState(0);
   const [tplus1, settplus1] = useState(0);
   const [tplus2, settplus2] = useState(0);
@@ -25,7 +56,7 @@ function Bundle1(props) {
   const [toption6, settoption6] = useState("Pain au Chocolat");
 
   const [mixed, setmixed] = useState(0);
-  const [mixedprice, setmixedprice] = useState(124);
+  const [mixedprice, setmixedprice] = useState(121);
   const [mixedtotal, setmixedtotal] = useState(0);
   const [mplus1, setmplus1] = useState(0);
   const [mplus2, setmplus2] = useState(0);
@@ -45,34 +76,6 @@ function Bundle1(props) {
   const [moption9, setmoption9] = useState("Waffles");
   const [moption10, setmoption10] = useState("Pain au Chocolat");
 
-  const [essential, setessential] = useState(0);
-  const [essentialprice, setessentialprice] = useState(119);
-  const [plus1, setplus1] = useState(0);
-  const [plus2, setplus2] = useState(0);
-  const [plus3, setplus3] = useState(0);
-  const [essentialtotal, setessentialtotal] = useState(0);
-  const [eoption1, seteoption1] = useState("Hot");
-  const [eoption2, seteoption2] = useState("Americano");
-  const [eoption3, seteoption3] = useState("Latte");
-  const [eoption4, seteoption4] = useState("Flakey Butter Croissant");
-  const [eoption5, seteoption5] = useState("Waffles");
-  const [eoption6, seteoption6] = useState("Pain au Chocolat");
-
-  const [lattebar, setlattebar] = useState(0);
-  const [lattebarprice, setlattebarprice] = useState(145);
-  const [lattebartotal, setlattebartotal] = useState(0);
-  const [lplus1, setlplus1] = useState(0);
-  const [lplus2, setlplus2] = useState(0);
-  const [lplus3, setlplus3] = useState(0);
-  const [lplus4, setlplus4] = useState(0);
-  const [lplus5, setlplus5] = useState(0);
-
-  const [loption1, setloption1] = useState("Hot");
-  const [loption2, setloption2] = useState("Macadamia Latte");
-  const [loption3, setloption3] = useState("Melaka Latte");
-  const [loption4, setloption4] = useState("Flakey Butter Croissant");
-  const [loption5, setloption5] = useState("Waffles");
-  const [loption6, setloption6] = useState("Pain au Chocolat");
 
   const[text,settext] = useState( {summary:'',bundle1set1:'',price:'',total:'',option1:'',option2:'',option3:'',option4:'',option5:'',option6:''})
   const[text2,settext2] = useState( {summary:'',bundle1set2:'',price:'',total:'',option1:'',option2:'',option3:'',option4:'',option5:'',option6:''})
@@ -392,15 +395,15 @@ console.log(text4)
 
   useEffect(() => {
     if (props.size == "Regular") {
-      setessentialprice(119);
-      setteaprice(110);
-      setlattebarprice(145);
-      setmixedprice(124);
+      setessentialprice(116);
+      setteaprice(107);
+      setlattebarprice(141);
+      setmixedprice(121);
     } else if (props.size == "Small") {
-      setessentialprice(104);
-      setteaprice(95);
-      setlattebarprice(130);
-      setmixedprice(109);
+      setessentialprice(100);
+      setteaprice(92);
+      setlattebarprice(126);
+      setmixedprice(106);
     }
   }, [props.size]);
 
